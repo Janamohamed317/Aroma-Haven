@@ -23,14 +23,16 @@ Navigate to the project directory:
 cd aroma-haven
 
 
-# Usage
+# Project Overview:
+This project is a fully responsive coffee shop website featuring:
 
-Open index.html in your web browser to view the homepage of Aroma Haven.
+Home Page: Welcome visitors with an engaging layout showcasing our shop’s atmosphere.
 
-Use the navigation bar to switch between different sections: Home, About Us, Shop, Contact Us, and Info.
+About Us: Dive into the story behind our coffee shop, highlighting our values and team.
 
-Browse the products in the Shop section and use the "Show More" button to view additional items.
+Products Page: Browse our extensive menu with detailed descriptions of each coffee blend and snack.
 
+Contact Information: Easily get in touch with us for orders, inquiries, or feedback.
 
 # Technologies Used
 
