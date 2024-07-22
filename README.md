@@ -44,8 +44,6 @@ Bootstrap 5
 
 jQuery
 
-FontAwesome
-
 Boxicons
 
 
