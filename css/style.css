@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    color: white;
+}
+:root
+{
+    --main: rgb(199, 161, 47); 
+    --bg: #131313;
+    --sec-color:#232323;
+    --font1: 'Playfair Display SC', serif;
+    --font2: "Raleway", sans-serif;
+    --font3: "Roboto", sans-serif;
+    --font4: "Merriweather", sans-serif;
+}
+body {
+    background-color:var(--bg);
+}
+.logo {
+    font-weight: 650;
+    font-size: 25px;
+    color: var(--main);
+    text-decoration: none;
+    font-family: var(--font1);
+}
+
+.navbar {
+    padding: 15px 18px;
+    background-color:var(--bg);
+}
+
+
+.nav-item {
+    margin: 0px 10px;
+}
+
+.nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 15px;
+    font-weight: 550;
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    background-color: rgba(255, 145, 0, 0.851);
+    height: 3px;
+    width: 0%;
+    transition: 0.5s ease-in-out;
+}
+
+.nav-item:hover .nav-link::after {
+    width: 100%;
+}
+
+.nav-link:hover {
+    color: var(--main);
+}
+
+.navbar-toggler {
+    color: rgb(1, 1, 27);
+    background-color: rgba(255, 255, 255, 0.414);
+}
+
+.home
+{
+    overflow: hidden;
+
+}
+.htxt {
+    
+    font-family: var(--font1);
+    padding-top: 150px;
+    font-weight: 600;
+    font-size: 75px;
+    position: relative;
+    right: -100%; 
+  
+}
+.spantxt {
+    color: var(--main);
+}
+
+.about {
+    margin: 80px 0px;
+    background-color:var(--sec-color);
+    width: 90%;
+    height: auto;
+    min-height: 200px; 
+    border-radius: 30px;
+    
+}
+.atxt {
+    padding: 50px;
+    display: none;
+    font-family: var(--font4);
+}
+
+.habout {
+    position: relative;
+}
+
+.habout::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(248, 163, 4);
+    height: 4px;
+    width: 5%;
+}
+.card {
+    border-radius: 30px;
+    background-color:var(--sec-color);
+    color: white;
+    position: relative;
+}
+.card:hover
+{
+    transform: scale(1.03);    
+}
+.card-title
+{
+    font-family: var(--font2);
+}
+.price
+{
+    display: flex;
+    justify-content: space-between;
+}
+.tog {
+    display: none;
+}
+.ptxt
+{
+    text-align: center;
+    font-weight: 300;
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+.ccontent
+{
+    margin-top: 50px;
+    border-radius: 30px;
+    width: 90%;
+    height: auto;
+    background-color:var(--sec-color);
+    
+}
+.contact
+{
+    display: none;
+}
+.ctxt
+{
+    font-weight: 200;
+    font-size: 40px;
+    display: none;
+}
+.cpara
+{
+    font-weight: 100;
+    font-size: 36px;
+}
+.form-control
+{
+    border: 2px solid rgb(36, 193, 255);
+}
+.btn
+{
+    background-color: var(--main);
+}
+.sbtn
+{
+    box-shadow: #e09a03 0px 1px 25px;
+}
+.sbtn:hover
+{
+    background-color: var(--bg);
+    color: var(--main);
+    transform: scaleX(1.1);
+}
+.info
+{
+    background-color: var(--sec-color);
+    border-radius: 30px;
+    width: 90%;
+    height: 300px;
+}
+.icons
+{
+    justify-content: space-around;
+    gap: 30px;
+}
+.icon
+{
+    
+    display: none;
+}
+.icon:hover
+{
+    transform: scale(1.2);
+}
+a
+{
+    font-size: 24px;
+    text-decoration: none;
+    color:var(--main);
+    
+}
+.details
+{
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    display: none;
+}
+.d
+{
+    margin-right: 4px;
+    
+    display: none;
+}
+.showp
+{
+    display: none;
+}
+
